@@ -1,5 +1,5 @@
 # cc-checker-stripe-chargerV1
-Credit Card Checker Gateway Stripee / Stripe charger $0.5 And Braintree support Check VBV, New Version V4.5 [UPDATE] [29-AUG-2024]
+Credit Card Checker Stripe charger $10. New Version (BETA VERSION) [UPDATE] [13-OCT-2024]
 
 ![PHP](https://img.shields.io/badge/language-PHP-blue.svg)
 ![DARKXCODE](https://img.shields.io/badge/Team-DARKXCODE-black)
