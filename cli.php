@@ -2,7 +2,7 @@
 /*==========> INFO 
  * CODE     : BY ZLAXTERT
  * SCRIPT   : CC CHECKER STRIPE CHARGER
- * VERSION  : 1
+ * VERSION  : BETA VERSION
  * TELEGRAM : t.me/zlaxtert
  * BY       : DARKXCODE
  */
@@ -64,44 +64,44 @@ foreach ($lists as $list) {
     if (strpos($x, '"status": "die"')) {
         $die++;
         save_file("result/checkAgain.txt", "$list");
-        echo "[$RD$no$DEF/$GR$total$DEF]$MG DIE$DEF =>$BL $list$DEF | [$YL MSG$DEF: $MG$msg$DEF ] | BY$CY DARKXCODE$DEF (V1)" . PHP_EOL;
+        echo "[$RD$no$DEF/$GR$total$DEF]$MG DIE$DEF =>$BL $list$DEF | [$YL MSG$DEF: $MG$msg$DEF ] | BY$CY DARKXCODE$DEF (BETA VERSION)" . PHP_EOL;
     } else if (strpos($x, '"status":"die"')) {
         $die++;
         save_file("result/checkAgain.txt", "$list");
-        echo "[$RD$no$DEF/$GR$total$DEF]$MG DIE$DEF =>$BL $list$DEF | [$YL MSG$DEF: $MG$msg$DEF ] | BY$CY DARKXCODE$DEF (V1)" . PHP_EOL;
+        echo "[$RD$no$DEF/$GR$total$DEF]$MG DIE$DEF =>$BL $list$DEF | [$YL MSG$DEF: $MG$msg$DEF ] | BY$CY DARKXCODE$DEF (BETA VERSION)" . PHP_EOL;
     } else if (strpos($x, '"status": "failed"')) {
         $dead++;
         save_file("result/die.txt", "$list|$msg");
-        echo "[$RD$no$DEF/$GR$total$DEF]$RD DECLINED$DEF =>$BL $list$DEF | [$YL MSG$DEF: $MG$msg$DEF ] | BY$CY DARKXCODE$DEF (V1)" . PHP_EOL;
+        echo "[$RD$no$DEF/$GR$total$DEF]$RD DECLINED$DEF =>$BL $list$DEF | [$YL MSG$DEF: $MG$msg$DEF ] | BY$CY DARKXCODE$DEF (BETA VERSION)" . PHP_EOL;
     } else if (strpos($x, '"status":"failed"')) {
         $dead++;
         save_file("result/die.txt", "$list|$msg");
-        echo "[$RD$no$DEF/$GR$total$DEF]$RD DECLINED$DEF =>$BL $list$DEF | [$YL MSG$DEF: $MG$msg$DEF ] | BY$CY DARKXCODE$DEF (V1)" . PHP_EOL;
+        echo "[$RD$no$DEF/$GR$total$DEF]$RD DECLINED$DEF =>$BL $list$DEF | [$YL MSG$DEF: $MG$msg$DEF ] | BY$CY DARKXCODE$DEF (BETA VERSION)" . PHP_EOL;
     } else if (strpos($x, '"status": "success"')) {
         $live++;
         save_file("result/live.txt", "$list");
-        echo "[$RD$no$DEF/$GR$total$DEF]$GR APPROVED$DEF =>$BL $list$DEF | [$YL MSG$DEF: $MG$msg$DEF ] | BY$CY DARKXCODE$DEF (V1)" . PHP_EOL;
+        echo "[$RD$no$DEF/$GR$total$DEF]$GR APPROVED$DEF =>$BL $list$DEF | [$YL MSG$DEF: $MG$msg$DEF ] | BY$CY DARKXCODE$DEF (BETA VERSION)" . PHP_EOL;
     } else if (strpos($x, '"status":"success"')) {
         $live++;
         save_file("result/approved.txt", "$list");
-        echo "[$RD$no$DEF/$GR$total$DEF]$GR APPROVED$DEF =>$BL $list$DEF | [$YL MSG$DEF: $MG$msg$DEF ] | BY$CY DARKXCODE$DEF (V1)" . PHP_EOL;
+        echo "[$RD$no$DEF/$GR$total$DEF]$GR APPROVED$DEF =>$BL $list$DEF | [$YL MSG$DEF: $MG$msg$DEF ] | BY$CY DARKXCODE$DEF (BETA VERSION)" . PHP_EOL;
     } else if ($x == "") {
         $rto++;
         save_file("result/RTO.txt", "$list");
-        echo "[$RD$no$DEF/$GR$total$DEF]$DEF TIMEOUT$DEF =>$BL $list$DEF | [$YL MSG$DEF:$MG REQUEST TIMEOUT$DEF ] | BY$CY DARKXCODE$DEF (V1)" . PHP_EOL;
+        echo "[$RD$no$DEF/$GR$total$DEF]$DEF TIMEOUT$DEF =>$BL $list$DEF | [$YL MSG$DEF:$MG REQUEST TIMEOUT$DEF ] | BY$CY DARKXCODE$DEF (BETA VERSION)" . PHP_EOL;
     } else if (strpos($x, 'Request Timeout')) {
         $rto++;
         save_file("result/RTO.txt", "$list");
-        echo "[$RD$no$DEF/$GR$total$DEF]$DEF TIMEOUT$DEF =>$BL $list$DEF | [$YL MSG$DEF:$MG REQUEST TIMEOUT$DEF ] | BY$CY DARKXCODE$DEF (V1)" . PHP_EOL;
+        echo "[$RD$no$DEF/$GR$total$DEF]$DEF TIMEOUT$DEF =>$BL $list$DEF | [$YL MSG$DEF:$MG REQUEST TIMEOUT$DEF ] | BY$CY DARKXCODE$DEF (BETA VERSION)" . PHP_EOL;
     } else if (strpos($x, 'Service Unavailable')) {
         $rto++;
         save_file("result/RTO.txt", "$list");
-        echo "[$RD$no$DEF/$GR$total$DEF]$DEF TIMEOUT$DEF =>$BL $list$DEF | [$YL MSG$DEF:$MG REQUEST TIMEOUT$DEF ] | BY$CY DARKXCODE$DEF (V1)" . PHP_EOL;
+        echo "[$RD$no$DEF/$GR$total$DEF]$DEF TIMEOUT$DEF =>$BL $list$DEF | [$YL MSG$DEF:$MG REQUEST TIMEOUT$DEF ] | BY$CY DARKXCODE$DEF (BETA VERSION)" . PHP_EOL;
     } else {
         $unknown++;
         save_file("result/unknown.txt", "$list");
         //echo $x.PHP_EOL;
-        echo "[$RD$no$DEF/$GR$total$DEF]$WH UNKNOWN$DEF =>$BL $list$DEF | [$YL MSG$DEF:$MG UNKNOWN$DEF ] | BY$CY DARKXCODE$DEF (V1)" . PHP_EOL;
+        echo "[$RD$no$DEF/$GR$total$DEF]$WH UNKNOWN$DEF =>$BL $list$DEF | [$YL MSG$DEF:$MG UNKNOWN$DEF ] | BY$CY DARKXCODE$DEF (BETA VERSION)" . PHP_EOL;
     }
 
 }
