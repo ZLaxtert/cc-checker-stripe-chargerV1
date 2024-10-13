@@ -3,7 +3,7 @@
 /*==========> INFO 
  * CODE     : BY ZLAXTERT
  * SCRIPT   : CC CHECKER STRIPE CHARGER
- * VERSION  : 1
+ * VERSION  : BETA VERSION
  * TELEGRAM : t.me/zlaxtert
  * BY       : DARKXCODE
  */
@@ -119,7 +119,7 @@ function banner2(){
     $out = "
 $WH       ===================================================================$DEF
                     |$GR SCRIPT$DEF  :$MG CREDIT CARD CHECKER        $DEF |
-                    |$BL VERSION$DEF :$CY V1$DEF                          |
+                    |$BL VERSION$DEF :$CY BETA VERSION$DEF                |
                     |$YL GATEWAY$DEF :$WH STRIPE CHARGER $10 $DEF         |
 $WH       ===================================================================$DEF
                      $GR TOTAL VISTOR CHECKING$DEF : $CY$total        $DEF 
