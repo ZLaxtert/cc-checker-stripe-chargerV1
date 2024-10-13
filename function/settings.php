@@ -2,7 +2,7 @@
 /*==========> INFO 
  * CODE     : BY ZLAXTERT
  * SCRIPT   : CC CHECKER STRIPE CHARGER
- * VERSION  : 1
+ * VERSION  : BETA VERSION
  * TELEGRAM : t.me/zlaxtert
  * BY       : DARKXCODE
  */
