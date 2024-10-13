@@ -1,0 +1,20 @@
+4816811764427155|06|2031|415|Missing payment method details.
+4583563215815576|09|2028|109|Missing payment method details.
+4720300583140756|03|2026|652|Missing payment method details.
+4633658508813534|02|2031|698|Missing payment method details.
+4211186353377355|11|2025|007|Your card was declined.
+4844721123627872|03|2024|244|Missing payment method details.
+4382187558165812|08|2029|931|Missing payment method details.
+4816811764427155|06|2031|415|Missing payment method details.
+4583563215815576|09|2028|109|Missing payment method details.
+4720300583140756|03|2026|652|Missing payment method details.
+4546515584741342|07|2025|814|Your card number is incorrect.
+4336607517352711|08|2032|106|Your card was declined.
+4208311632334671|05|2031|583|Your card does not support this type of purchase.
+4455107331115324|04|2026|129|Missing payment method details.
+4051587480720511|12|2029|765|Missing payment method details.
+4120678045525474|04|2029|531|Your card was declined.
+4526058335085663|04|2032|830|Missing payment method details.
+4354755330582050|11|2030|714|Missing payment method details.
+4831157066158028|05|2031|966|Missing payment method details.
+4450528125188430|10|2027|371|Missing payment method details.
