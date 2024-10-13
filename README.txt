@@ -8,4 +8,5 @@ ENGLISH LANGUAGE
 4. ENJOY :)
 
 TUTORIAL INSTALL PHP ON WINDOWS : https://fellowtuts.com/php/run-php-from-command-line-in-windows-and-xampp/
+PASTE YOUR PROXY AUTH IN FILE settings.php in folder function
 ====================================================================================================
