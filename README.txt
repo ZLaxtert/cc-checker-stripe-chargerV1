@@ -2,12 +2,17 @@
 ==================================================================================================
 ENGLISH LANGUAGE
 
+TUTORIAL INSTALL PHP ON WINDOWS : https://fellowtuts.com/php/run-php-from-command-line-in-windows-and-xampp/
+
+IF YOU ARE USING A PROXY LIST PLEASE OPEN FILE 'settings.php' in the function folder
+
 1. install php on your PC or Laptop (there are many ways on Google)
 2. set up the PHP environment variable (there are many ways on Google)
 3. open file 'open.bat'
 4. ENJOY :)
 
-TUTORIAL INSTALL PHP ON WINDOWS : https://fellowtuts.com/php/run-php-from-command-line-in-windows-and-xampp/
-PASTE YOUR PROXY AUTH IN FILE settings.php in folder function
-If you want to use low charger you can buy it in my site https://darkxcode.site
+proxy_list = proxy.txt [name of your proxy file]
+proxy_Auth = 'fill in your proxy password' [if your proxy uses a password please fill in otherwise leave blank]
+type_proxy = proxy type (example: http or https)
+
 ====================================================================================================
